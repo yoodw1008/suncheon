@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>순천만습지 소개</title>
+    
+    <style>
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            line-height: 1.6;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #a4f7c7;
+            color: #26b7ff;
+        }
+        h1 {
+            font-size : 50px;
+            text-align: center;
+            color: #1b8700;
+        }
+        h2 {
+            text-align: center;
+            color: #1b8700;
+        }
+        p {
+            text-align: justify;
+            color: #141010;
+        }
+        .container {
+            margin-bottom: 20px;
+        }
+        footer {
+            text-align: center;
+            color: #999;
+            margin-top: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>환영합니다, 순천만습지!</h1>
+    </header>
+    <img src ="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzEyMDhfNCAg%2FMDAxNzAyMDMwODU1NjAz.KqzQ_LTcmcDGyglLS1MMO13horSYrlFc2jbp8W8WNbIg.JUM22kZEbs8MAsOWgARmV8WiUa7Fl5Ii_LP9y5PLttYg.JPEG.wlseh0185%2F23.12.07-6.jpg&type=sc960_832">
+    <main>
+        <div class="container">
+            <h2>순천만습지 소개</h2>
+            <p>순천만습지는 대한민국 전라남도 순천시에 위치한 자연보호구역으로, 그 면적은 약 18,000여 헥타르로 국내 최대의 습지 생태계를 자랑합니다. 이 지역은 한반도의 중요한 체류지로서, 갈대밭, 갯벌, 연못 등 다양한 자연 환경을 포함하고 있습니다.</p>
+            <p>순천만습지는 전 세계적으로도 중요한 생태계로 인정받아 있으며, 매년 수백만 마리의 조류들이 이곳을 경유하거나 서식하여 중요한 체류지로 자리매김하고 있습니다. 특히, 철새들의 서식지로 유명하며, 철새를 관찰할 수 있는 최적의 장소입니다.</p>
+            
+        </div>
+        <div class="container">
+            <h2>생태 다양성</h2>
+            <p>순천만습지는 다양한 생태계를 보유하고 있습니다. 갈대밭과 수많은 갯벌이 조류의 서식지로 활용되며, 각종 해조류들도 풍부하게 자생하고 있습니다. 이곳에서는 갈대밭 사이를 거닐며 자연의 소리를 감상하고, 다양한 조류들을 관찰할 수 있는 특별한 경험을 제공받을 수 있습니다.</p>
+            <p>또한, 순천만습지는 멸종 위기 종인 황금도룡뇽과 같은 특별한 생물들의 서식지로도 알려져 있으며, 생태 보호 활동에도 큰 관심을 가지고 운영되고 있습니다.</p>
+        </div>
+        <div class="container">
+            <h2>방문자 활동 및 시설</h2>
+            <p>순천만습지는 방문자들이 편안하고 즐거운 시간을 보낼 수 있도록 다양한 시설과 프로그램을 제공합니다. 산책로와 관람탑, 전망대 등이 설치되어 있어 방문객들은 자유롭게 습지를 탐험할 수 있습니다.</p>
+            <p>특히, 자전거 대여 서비스도 제공되어 멀리서부터 이곳을 방문하는 사람들이 자연을 더 깊이 체험할 수 있도록 돕습니다. 또한, 자연 교육 센터에서는 다양한 생태 교육 프로그램과 워크숍을 통해 방문객들에게 자연의 아름다움과 중요성을 함께 공유합니다.</p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 순천만습지. 모든 권리 보유.</p>
+    </footer>
+    <script>
+        // Google 지도 API를 이용한 지도 삽입
+        function initMap() {
+            // 순천만습지의 위도와 경도
+            var suncheonManCoordinates = {lat: 34.840620, lng: 127.489720};
+            
+            // 지도 생성
+            var map = new google.maps.Map(
+                document.getElementById('map'), {zoom: 12, center: suncheonManCoordinates});
+            
+            // 지도에 마커 추가
+            var marker = new google.maps.Marker({position: suncheonManCoordinates, map: map});
+        }
+    </script>
+    
+    <!-- Google 지도 API 스크립트 -->
+    <script async defer
+    src="https://earth.google.com/web/search/%ec%88%9c%ec%b2%9c%eb%a7%8c%ec%8a%b5%ec%a7%80/@34.88139253,127.50570663,1.62713811a,6025.80684616d,35y,360h,0t,0r/data=CigiJgokCTWtjOxYtjBAEXFsVt-LUDrAGVbtgX6IxEhAIYbf4IIi6k3A">
+    </script>
+</body>
+</html>
